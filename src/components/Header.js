@@ -17,6 +17,7 @@ const Header = () => {
       <div className="navbar-nav">
         <Link className="nav-link active" to={"/"}>Add Book</Link>
         <Link className="nav-link" to={"/booksearch"}> Search Book</Link>
+        <Link className="nav-link" to={"/viewbook"}> View Book</Link>
         
        
       </div>
