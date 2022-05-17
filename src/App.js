@@ -6,6 +6,7 @@ import Addstude from './components/Addbook';
 import Addbook from './components/Addbook';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import Searchbook from './components/Searchbook';
+import Viewbook from './components/Viewbook';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
 <Routes>
 <Route path="/" exact element={<Addbook/>}/>
 <Route path="/booksearch" exact element={<Searchbook/>}/>
+<Route path="/viewbook" exact element={<Viewbook/>}/>
 </Routes>
 </BrowserRouter>
     </>
